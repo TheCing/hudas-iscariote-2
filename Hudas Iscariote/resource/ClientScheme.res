@@ -738,7 +738,7 @@ Scheme
             "1"
             {
                 "name"      "Crosshairs"
-                "tall"      "28"
+                "tall"      "11"
                 "additive"  "0"
                 "antialias"     "0"
                 "weight"    "0"

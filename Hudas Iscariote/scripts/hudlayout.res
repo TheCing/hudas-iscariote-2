@@ -234,14 +234,14 @@
         "visible"   "0"
         "enabled"   "1"
 
-        "xpos"      "c-19"
-        "ypos"      "c-13"
+        "xpos"      "c-15"
+        "ypos"      "c-14"
         "zpos"      "2"
         
-        "wide"      "29"
-        "tall"      "30"
+        "wide"      "28"
+        "tall"      "29"
 
-        "font"      "fogCrosshairSmooth"
+        "font"      "fogCrosshairPlain"
         //
         // Choose what kind
         //
@@ -250,7 +250,7 @@
         // "fogCrosshairSmooth"   - Antialiased, not outlined
         
 
-        "labeltext" "n"
+        "labeltext" "3"
         //
         // Choose your crosshair
         // 
@@ -258,7 +258,7 @@
 
         "textAlignment" "center"
         
-        "fgcolor"   "255 255 255 255"
+        "fgcolor"   "0 255 0 255"
     }
 //
 //###################
@@ -1719,8 +1719,8 @@
         "visible"       "1"
         "enabled"       "1"
         "xpos"          "0"
-        "ypos"          "0"
         "wide"          "f0"
+        "ypos"          "0"
         "tall"          "f0"
     }
 
@@ -1745,4 +1745,27 @@
         "wide" "f0"
         "tall" "f0"
     }
+	HudMatchStatus
+	{
+		"fieldName" "HudMatchStatus"
+		"visible" "1"
+		"enabled" "1"
+		"xpos" "0"
+		"ypos" "0"
+		"zpos" "2"
+		"wide" "f0"
+		"tall" "f0"
+	}
+
+	HudTeamStatus
+	{
+		"fieldName" "HudTeamStatus"
+		"visible" "1"
+		"enabled" "1"
+		"xpos" "0"
+		"ypos" "0"
+		"zpos" "2"
+		"wide" "f0"
+		"tall" "f0"
+	}
 }
