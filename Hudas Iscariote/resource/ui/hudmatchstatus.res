@@ -80,9 +80,6 @@
 		"delta_lifetime"		"0"
 		"delta_item_font"		"Museo16"
 		
-		if_comp
-		{
-		}
 		"TimePanelValue"
 		{
 			"ControlName"		"CExLabel"
@@ -98,13 +95,7 @@
 			"enabled"		"1"
 			"textAlignment"		"center"
 			"labelText"		"0:00"
-			
-			if_comp
-			{	
-				"proportionaltoparent"	"1"
-			}
 		}
-		
 	}
 	
 	

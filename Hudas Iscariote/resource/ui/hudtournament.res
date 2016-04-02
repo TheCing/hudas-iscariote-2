@@ -9,7 +9,8 @@
         "ypos"                  "-25"
         "wide"                  "250"
         "tall"                  "480"
-
+		"proportionaltoparent"	"1"
+		
         "team1_player_base_offset_x"        "-75"
         "team1_player_base_y"               "0"
         "team1_player_delta_x"              "-47"
@@ -104,15 +105,15 @@
             {
                 "ControlName" "ImagePanel"
                 "fieldName"   "BG"
-                "xpos"        "0"
-                "ypos"        "0"
+                "xpos"        "-22"
+                "ypos"        "-22"
                 "zpos"        "-2"
                 "wide"        "55"
                 "tall"        "35"
                 "autoResize"        "0"
                 "pinCorner"     "0"
                 "fillcolor"     "234 234 234 255"
-                "visible"           "1"
+                "visible"           "0"
                 "enabled"           "1"
             }
                                                     
@@ -140,7 +141,7 @@
                     "ypos"              "25"
                     "wide"        	    "48"
                     "textAlignment"     "center"
-                    "font"              "PlayerPanelPlayerName"
+                    "font"              "Garm3n8Spec"
                 }
 				if_competitive
 				{
@@ -149,7 +150,7 @@
 					"wide"				"p0.9"
 					"tall"				"p0.22"
 					"textAlignment"		"center"
-					"font"				"PlayerPanelPlayerName"
+					"font"				"Garm3n8Spec"
 					"proportionaltoparent" "1"
 				}
 
@@ -159,7 +160,7 @@
 					"ypos"				"25"
 					"wide"				"48"
 					"textAlignment"		"center"
-					"font"				"PlayerPanelPlayerName"
+					"font"				"Garm3n8Spec"
 				}
             }
             
@@ -209,11 +210,11 @@
             {
                 "ControlName"       "Panel"
                 "fieldName"     "classimagebg"
-                "xpos"          "5"
-                "ypos"          "4"
-                "zpos"          "2"
-                "wide"          "20"
-                "tall"          "20"
+                "ypos"          "0"
+                "xpos"          "0"
+                "zpos"          "-10"
+                "wide"          "1"
+                "tall"          "1"
                 "visible"       "0"
                 "enabled"       "1"
                 "bgcolor_override"      "Black"
@@ -272,8 +273,8 @@
                 "tall"          "16"
                 "autoResize"    "0"
                 "pinCorner"     "0"
-                "visible"       "0"
-                "enabled"       "0"
+                "visible"       "1"
+                "enabled"       "1"
                 "image"         "../HUD/tournament_panel_brown"
 
                 "src_corner_height" "22"                // pixels inside the image
@@ -461,9 +462,9 @@
         "tall"          "35"
         "autoResize"        "0"
         "pinCorner"     "0"
-        "visible"       "1"
+        "visible"       "0"
         "enabled"       "1"
-        "wrap"          "0"
+        "wrap"          "1"
         "labelText"     "%tournamentstatelabel%"
         "textAlignment"     "north-west"
 

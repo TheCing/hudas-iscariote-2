@@ -3,7 +3,7 @@
 	"TournamentSetupLabel"
 	{	
 		"ControlName"		"CExLabel"
-		"fieldName"		"TournamenteLabel"
+		"fieldName"		"TournamentLabel"
 		"font"			"Museo12"
 		"xpos"			"87"
 		"ypos"			"0"
@@ -19,10 +19,10 @@
 		"labelText"		"%tournamentstatelabel%"
 		"textAlignment"		"center"
 	}
-	"SetupBG"
+	"HudTournamentSetupBG"
 	{
 		"controlName"	"CTFImagePanel"
-		"fieldName"		"SetupBG"
+		"fieldName"		"HudTournamentSetupBG"
 		"image"		"../hud/color_panel_brown"
 		"xpos"			"91"
 		"ypos"			"0"
@@ -31,7 +31,7 @@
 		"tall"			"15"
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"			"1"
 		"teambg_1"		"../hud/color_panel_brown"
@@ -87,10 +87,10 @@
 		"textAlignment"		"west"
 	}
 
-	"NameBG"
+	"HudTournamentNameBG"
 	{
 		"ControlName"		"ImagePanel"
-		"fieldName"		"NameBG"
+		"fieldName"		"HudTournamentNameBG"
 		"xpos"		"7"
 		"ypos"		"0"
 		"wide"		"86"
@@ -102,10 +102,10 @@
 		"enabled"	"1"
 		"fillcolor"	"32 32 32 255"
 	}
-	"NameBG2"
+	"HudTournamentNameBG2"
 	{
 		"ControlName"		"ImagePanel"
-		"fieldName"		"NameBG2"
+		"fieldName"		"HudTournamentNameBG2"
 		"xpos"		"91"
 		"ypos"		"0"
 		"wide"		"83"
@@ -116,21 +116,6 @@
 		"visible"	"1"
 		"enabled"	"1"
 		"fillcolor"	"32 32 32 255"
-	}
-	"HudTournamentNameBG"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"HudTournamentNameBG"
-		"xpos"		"72"
-		"ypos"		"24"
-		"wide"		"0"
-		"tall"		"0"
-		"zpos"		"0"
-		"autoResize"	"0"
-		"pinCorner"	"0"
-		"visible"	"0"
-		"enabled"	"1"
-		"fillcolor"	"0 0 0 255"
 	}
 
 	"TournamentBG"
