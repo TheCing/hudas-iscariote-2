@@ -11,22 +11,21 @@
         "tall"                  "480"
 		"proportionaltoparent"	"1"
 		
-        "team1_player_base_offset_x"        "-75"
-        "team1_player_base_y"               "0"
-        "team1_player_delta_x"              "-47"
-        "team1_player_delta_y"              "0"
-        "team2_player_base_offset_x"        "25"
-        "team2_player_base_y"               "0"
-        "team2_player_delta_x"              "47"
-        "team2_player_delta_y"              "0"
-        
+        "team1_player_base_offset_x"		"-75"
+		"team1_player_base_y"				"0"
+		"team1_player_delta_x"				"-47"
+		"team1_player_delta_y"				"0"
+		"team2_player_base_offset_x"		"25"
+		"team2_player_base_y"				"0"
+		"team2_player_delta_x"				"47"
+		"team2_player_delta_y"				"0"
+		"teams_player_delta_x_comp"			"42"
+		
+		
+		
 		if_mvm
 		{
-			"xpos"					"c-250"
-			"ypos"					"0"
-			"wide"					"500"
-			"tall"					"480"
-
+			
 			"team1_player_base_y"			"66"
 			"team2_player_base_y"			"66"
 			"team2_player_delta_x"			"52"
@@ -34,7 +33,10 @@
 		
 		if_competitive
 		{
-
+			"xpos"							"cs-0.5"
+			"ypos"							"-25"
+			"wide"							"f0"
+			"tall"							"480"
 
 			"team1_player_base_y"			"75"
 			"team2_player_base_y"			"66"
@@ -43,36 +45,17 @@
 		
 		if_readymode
 		{
-
-
+			"xpos"							"c-320"
+			"ypos"							"-25"
+			"wide"							"640"
+			"tall"							"480"
+			 
 			"team1_player_base_y"			"66"
 			"team2_player_base_y"			"66"
 			"team2_player_delta_x"			"52"
 			"team2_player_base_offset_x"	"5"
 		}
-		
-		"ModeImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"ModeImage"
-			"xpos"			"cs-0.5"
-			"ypos"			"35"
-			"zpos"			"0"
-			"wide"			"60"
-			"tall"			"60"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"0"
-			"enabled"		"0"
-			"image"			"competitive/competitive_logo_laurel"
-			"scaleImage"	"0"
-			"proportionaltoparent"	"0"
-
-			if_competitive
-			{
-				"visible"		"0"
-			}
-		}
+	
         "playerpanels_kv"
         {
             "visible"       "0"
@@ -91,7 +74,7 @@
 						
 			if_competitive
 			{
-				"wide"		"45"
+				"wide"		"40"
 				"tall"		"29"
 			}
 
@@ -116,7 +99,7 @@
                 "visible"           "0"
                 "enabled"           "1"
             }
-                                                    
+
             "playername"
             {
                 "ControlName"   "CExLabel"
@@ -227,6 +210,7 @@
                 }
 				if_competitive
 				{
+					"fillcolor"     "32 32 32 255"
 					"visible"		"1"
 				}
 
@@ -508,6 +492,10 @@
         {
             "visible"       "0"
         }
+		if_competitive
+		{
+			"xpos"			"c-125"	
+		}
     }
     "BlueBGShade"
     {
@@ -529,6 +517,10 @@
         {
             "visible"       "0"
         }
+		if_competitive
+		{
+			"xpos"			"c-125"	
+		}
 
     }
     "ShadedBarBlue"
@@ -552,6 +544,10 @@
         {
             "visible"       "0"
         }
+		if_competitive
+		{
+			"xpos"			"c-108"	
+		}
 
     }
     "TournamentBLUELabel"
@@ -577,6 +573,10 @@
         {
             "visible"       "0"
         }
+		if_competitive
+		{
+			"xpos"			"c-106"	
+		}
     }
     "TournamentBLUEStateLabel"
     {   
@@ -601,6 +601,10 @@
         {
             "visible"       "0"
         }
+		if_competitive
+		{
+			"xpos"			"c-70"	
+		}
     }
     "ShadedBarRed"
     {
@@ -623,6 +627,10 @@
         {
             "visible"       "0"
         }
+		if_competitive
+		{
+			"xpos"			"c"	
+		}
 
     }
     "RedBG"
@@ -649,6 +657,10 @@
         {
             "visible"       "0"
         }
+		if_competitive
+		{
+			"xpos"			"c108"	
+		}
     }
     "RedBGShade"
     {
@@ -670,6 +682,10 @@
         {
             "visible"       "0"
         }
+		if_competitive
+		{
+			"xpos"			"c108"	
+		}
 
     }
     "TournamentREDLabel"
@@ -695,6 +711,10 @@
         {
             "visible"       "0"
         }
+		if_competitive
+		{
+			"xpos"			"c39"	
+		}
     }
     "TournamentREDStateLabel"
     {   
@@ -719,6 +739,10 @@
         {
             "visible"       "0"
         }
+		if_competitive
+		{
+			"xpos"			"c4"	
+		}
     }
     "ShadedBarConditions"
     {
@@ -741,6 +765,10 @@
         {
             "visible"       "0"
         }
+		if_competitive
+		{
+			"xpos"			"c-125"	
+		}
     }
     "TournamentConditionLabel"
     {   
@@ -766,6 +794,10 @@
         {
             "visible"       "0"
         }
+		if_competitive
+		{
+			"xpos"			"c-125"	
+		}
     }
 
     "HudTournamentBGHelp"
@@ -794,6 +826,10 @@
         {
             "visible"       "0"
         }   
+		if_competitive
+		{
+			"xpos"			"c-125"	
+		}
     }
     "TournamentInstructionsLabel"
     {   
@@ -823,6 +859,10 @@
             "tall"          "20"
             "zpos"          "3"
         }
+		if_competitive
+		{
+			"xpos"			"c-125"	
+		}
     }
     
     "TournamentInstructionsLabelShadow"
@@ -853,6 +893,10 @@
             "visible"       "0"
             "fgcolor"       "Black"
         }
+		if_competitive
+		{
+			"xpos"			"c-125"	
+		}
     }
     
     "CountdownBG"
@@ -875,6 +919,12 @@
         
         "draw_corner_width" "4"             // screen size of the corners ( and sides ), proportional
         "draw_corner_height"    "4" 
+		
+		if_competitive
+		{
+			"xpos"			"c-12"
+			"ypos"          "150"
+		}
     }
 
     "CountdownLabel"
@@ -900,6 +950,10 @@
         {
             "visible"   "1"
         }
+		if_competitive
+		{
+			"xpos"          "c-13"
+		}
         
     }
     "CountdownLabelShadow"
